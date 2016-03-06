@@ -7,7 +7,8 @@ Currently used for;
 - Last.fm
 - Twitter
 
-# demos
+DEMO
+----
 
 - http://git.sgnls.net/extract/lfm.php
 - http://git.sgnls.net/extract/twr.php
