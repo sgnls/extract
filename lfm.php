@@ -13,6 +13,8 @@ if(isset($_POST)){extract($_POST);}
 # long as credit is given, and any amendments do not restrict
 # it's continued 'free' distribution and informative value.
 
+$lfm_limit = 8;
+
 # replacement array
 $hunt = array("+","%27"," live "," The "," Is ","%3F","/music/"," Of ","/serve/34s","/serve/64s","an hour"," 2015"," minutes ago","T%C3%BDr");
 $swap = array(" ","'"," Live "," the "," is ","?",""," of ","/serve/126s","/serve/126s","An hour",", 2015","m","Týr");
