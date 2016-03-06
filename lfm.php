@@ -13,6 +13,7 @@ if(isset($_POST)){extract($_POST);}
 # long as credit is given, and any amendments do not restrict
 # it's continued 'free' distribution and informative value.
 
+$lfm_usr = sgnls;
 $lfm_limit = 8;
 
 # replacement array
@@ -25,10 +26,10 @@ if($lfm_usr == ""){
 }
 else{
 	$lfm_urlb = "http://last.fm/user/" . $lfm_usr;
-	$lfm_url_30 = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=LAST_30_DAYS";
-	$lfm_url_90 = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=LAST_90_DAYS";
-	$lfm_url_365 = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=LAST_365_DAYS";
-	$lfm_url_all = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=";
+	# $lfm_url_30 = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=LAST_30_DAYS";
+	# $lfm_url_90 = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=LAST_90_DAYS";
+	# $lfm_url_365 = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=LAST_365_DAYS";
+	# $lfm_url_all = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=";
 }
 
 # configure limits

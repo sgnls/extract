@@ -15,10 +15,11 @@ if(isset($_POST)){extract($_POST);}
 
 # location of rf
 
+$twitter_usr = "celestial_sgnls";
+$twitter_limit_initial = "10";
 
-if(!$twitter_limit){
-	$twitter_limit = 11; # +1 more than desired
-}
+$twitter_limit = $twitter_limit_initial +1;
+
 if(!$twitter_usr){
 	$twitter_usr = "celestial_sgnls";
 	$twitter_url = "https://twitter.com/" . $twitter_usr;
