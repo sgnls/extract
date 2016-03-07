@@ -9,7 +9,7 @@ if(isset($_POST)){extract($_POST);}
 # Service ~ last.fm (Recent Tracks)
 # http://sgnls.net
 
-# Copyright 2015. You may use and distribute this code as
+# Copyright 2016. You may use and distribute this code as
 # long as credit is given, and any amendments do not restrict
 # it's continued 'free' distribution and informative value.
 
