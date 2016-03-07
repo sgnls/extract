@@ -25,7 +25,7 @@ if($lfm_usr == ""){
 	$lfm_usr = "sgnls";
 }
 else{
-	$lfm_urlb = "http://last.fm/user/" . $lfm_usr;
+	$lfm_url = "http://last.fm/user/" . $lfm_usr;
 	# $lfm_url_30 = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=LAST_30_DAYS";
 	# $lfm_url_90 = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=LAST_90_DAYS";
 	# $lfm_url_365 = "http://last.fm/user/" . $lfm_usr . "/library/artists?date_preset=LAST_365_DAYS";
@@ -41,7 +41,7 @@ $results_limit_all = $lfm_limit + 1;
 
 # get data
 $cnxt = stream_context_create(array('http' => array('header'=>'Connection: close\r\n')));
-$lfm_rs = file_get_contents($lfm_urlb,false,$cnxt);
+$lfm_rs = file_get_contents($lfm_url,false,$cnxt);
 
 	# debug
 	if(isset($debug)){
