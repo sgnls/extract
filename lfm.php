@@ -5,7 +5,7 @@ if(!isset($_POST)){$_POST = &$HTTP_POST_VARS;}
 if(isset($_GET)){extract($_GET);}
 if(isset($_POST)){extract($_POST);}
 
-# Remote File (rf) Manipulator
+# Remote File (rf) Manipulator v5.0
 # Service ~ last.fm (Recent Tracks)
 # http://sgnls.net
 
